@@ -1,0 +1,13 @@
+.friendlist {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.friendlist li {
+    margin-bottom: 20px;
+}
+
+.friendlist li:last-child {
+    margin-bottom: 0;
+}
